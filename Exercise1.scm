@@ -34,3 +34,8 @@
 
 ;; under normal order evaluation, (test 0 (p)) will go into the method test first, where the if predicate x = 0 will evaluate to true, and the result will be 0
 ;; under applicative order evaluation, (p) will be evaluated first, as (p) calls itself, the program will go into an infinite loop
+
+;; Exercise 1.6
+;; scheme uses applicative order evaluation strategy for its procedures, so the program will go into infinite loop
+;; Whereas for conditional expression e.g. (if <predicate> <consequent> <alternative>) scheme applies a normal order evaluation and first evaluate the predicate
+;; then it evaluates either the consequent or the alternative
