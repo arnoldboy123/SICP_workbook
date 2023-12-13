@@ -32,5 +32,5 @@
 
 (test 0 (p))
 
-;; under applicative order evaluation, (test 0 (p)) will go into the method test first, where the if predicate x = 0 will evaluate to true, and the result will be 0
-;; under normal order evaluation, (p) will be evaluated first, as (p) calls itself, the program will go into an infinite loop
+;; under normal order evaluation, (test 0 (p)) will go into the method test first, where the if predicate x = 0 will evaluate to true, and the result will be 0
+;; under applicative order evaluation, (p) will be evaluated first, as (p) calls itself, the program will go into an infinite loop
