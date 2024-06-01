@@ -15,3 +15,8 @@ Scheme workings of SICP, mainly to learn in public and also provide solution for
 
 ## Contribution
 I am not taking any pull request at the moment, but do feel free to fork the repo. If you spot any mistake, feel free to open an issue
+
+## Resources
+Structure and Interpretation of Computer Programs (second edition): https://web.mit.edu/6.001/6.037/sicp.pdf
+
+Brian Harvey's CS61A lectures: https://www.youtube.com/watch?v=4leZ1Ca4f0g&list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9&index=1&ab_channel=SatyakiranDuggina
